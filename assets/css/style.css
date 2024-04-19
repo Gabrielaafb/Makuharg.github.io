@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 2.5rem 1rem;
+}
+
+.logo {
+    height: 47px;
+    width: 57px;
+    border-radius: 50px;
+}
+
+.link-box {
+    font-size: 1rem;
+}
+
+.logo:hover {
+    opacity: 0.7;
+}
+
+.link-box, .socialLogo-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links {
+    text-decoration: none;
+    padding: 0 2.5rem;
+    color: #4b5563;
+    font-weight: 500;
+}
+
+.social-links:hover {
+    opacity: 0.8;
+    color: #af6016;
+}
+
+#portfolio {
+    background-color: #af6016;
+    color: white;
+    border-radius: 5px;
+}
+
+.sm-icon {
+    padding: 0 0.5rem;
+    color: rgb(35, 35 , 35);
+    font-size: 24px;
+}
+
+.sm-icon:hover {
+    opacity: 0.8;
+    color: #af6016;
+}
+
+.section-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 7.5rem;
+    margin-top: 2.5rem;
+    padding: 0 3rem;
+}
+
+h1 {
+    font-size: 52px;
+    line-height: 1.25;
+}
+
+h3 {
+    margin: 0.25rem 0 2.25rem 0;
+    color: #333; 
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #af6016;
+    color: #f6f6f6;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 9px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+
+.foto-marcos {
+    height: 275px;
+    border-radius: 500px;
+}
