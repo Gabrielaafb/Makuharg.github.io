@@ -4,12 +4,16 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Raleway", sans-serif;   
+}
+
 header {
-    height: 100vh;
+    height: 60vh;
 }
 
 
-.container {
+.container-nav {
     display: flex;
     justify-content: space-around;
     padding: 2.5rem 1rem;
@@ -106,3 +110,46 @@ h3 {
     height: 275px;
     border-radius: 500px;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    gap: 1.5rem;
+}
+
+.habilidades {
+    text-align: center;
+    padding: 2rem 0;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, 
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+.habilidades:hover {
+    background-color: #af6016;
+    color: rgb(237, 237, 237);
+}
+
+.habilidades:not(:hover) {
+    opacity: 0.7;
+}
+
+.titulo-habilidades {
+    color: inherit;
+}
+
+footer {
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 2.5rem;
+}
+
+#header-portfolio {
+    height: 20vh;
+}
+
