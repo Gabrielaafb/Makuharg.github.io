@@ -8,6 +8,8 @@ body {
     font-family: "Raleway", sans-serif;   
 }
 
+/* CSS del Header */
+
 header {
     height: 60vh;
 }
@@ -68,6 +70,8 @@ header {
     color: #af6016;
 }
 
+
+
 .section-container {
     display: flex;
     justify-content: space-evenly;
@@ -111,6 +115,8 @@ h3 {
     border-radius: 500px;
 }
 
+/* CSS del main */
+
 main {
     display: flex;
     justify-content: center;
@@ -121,7 +127,7 @@ main {
 
 .habilidades {
     text-align: center;
-    padding: 2rem 0;
+    padding: 2rem 1rem;
     width: 300px;
     border-radius: 5px;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, 
@@ -141,6 +147,33 @@ main {
     color: inherit;
 }
 
+/* CSS del section antes del Footer */
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 7rem 0 2rem 0;
+    background-color: #af6016;
+    height: 500px;
+}
+
+.descripcion-info {
+    width: 410px;
+    height: 300px;
+    color: white;
+    font-weight: 500;
+    line-height: 2;
+    opacity: 0.9;
+}
+
+.foto-info img{
+    width: 400px;
+
+}
+
+/* CSS del footer */
+
 footer {
     height: 30vh;
     display: flex;
@@ -149,7 +182,5 @@ footer {
     padding: 0 2.5rem;
 }
 
-#header-portfolio {
-    height: 20vh;
-}
+
 
