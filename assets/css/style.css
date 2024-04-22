@@ -134,6 +134,7 @@ main {
     align-items: center;
     height: 10vh;
     gap: 1.5rem;
+    margin-top: 30vh;
 }
 
 .habilidades {
